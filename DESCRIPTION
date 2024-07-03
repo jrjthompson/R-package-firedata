@@ -5,22 +5,12 @@ Imports: stats, graphics
 Authors@R: 
     person("John R.J.", "Thompson", "john.thompson@ubc.ca", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-6303-449X"))
-Description:  fire spread data consists of segmented RGB images from 29 fire
-smouldering experiments of wax paper.
+Maintainer: John R.J. Thompson <john.thompson@ubc.ca>
+Description:  A collection of measurements from wax paper smouldering experiments. The data consists of segmented RGB images from 29 micro-fires. For more details on experimentation, read the vignette or see Thompson, J.R.J., Wang, X.J., and Braun, W.J. (2020) <[http://www.jenvstat.org/v09/i06](http://www.jenvstat.org/v09/i06)>
 License: CC BY 4.0
-URL: https://github.com/hadley/firedata
-BugReports: https://github.com/hadley/nycflights13/issues
-Depends: R (>= 3.2)
-Imports: tibble
-Suggests: dplyr
-Encoding: UTF-8
-LazyData: true
-LazyDataCompression: bzip2
-RoxygenNote: 7.1.1
-NeedsCompilation: no
-Packaged: 2021-04-12 12:50:57 UTC; hadley
-Author: Hadley Wickham [aut, cre],
-  RStudio [cph]
-Maintainer: Hadley Wickham <hadley@rstudio.com>
+URL: https://github.com/jrjthompson/R-package-nonsmooth/
+BugReports: https://github.com/jrjthompson/R-package-nonsmooth/issues
+Depends: R (>= 3.5.0)
 Repository: CRAN
-Date/Publication: 2021-04-12 16:00:08 UTC
+LazyData: true
+LazyDataCompression: xz

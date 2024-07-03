@@ -18,9 +18,9 @@ Thompson et al. (2020).
 \format{
 Each fire movie is a data frame with four dimensions. The first and
 second dimensions are the rows and columns of one image. The third
-dimension is each RGB channel, withthe red channel (1), blue channel
-(2), and green channel (3). Thefourth dimension is time, starting at
-igntion (time point 1), andthen each RGB image is seperated by one
+dimension is each RGB channel, with the red channel (1), blue channel
+(2), and green channel (3). The fourth dimension is time, starting at
+igntion (time point 1), and then each RGB image is seperated by one
 second. To access each video, use \code{flat##}, \code{slope110#},
 and \code{slope320#}.
 }
@@ -31,17 +31,15 @@ and \code{slope320#}.
   Thompson, J.R.J., Wang, X.J., & Braun, W.J. (2020) \dQuote{A mouse
   model for studying fire spread rates using experimental micro-fires},
   \emph{Journal of Environmental Statistics}, 9(1), 1-19.
-  <http://www.jenvstat.org/v09/i06>
+  <[http://www.jenvstat.org/v09/i06](http://www.jenvstat.org/v09/i06)>
 
   Wang, X.J., Thompson, J.R.J., Braun, W.J., & Woolford, D.G. (2019)
   \dQuote{Fitting a stochastic fire spread model to data.}
   \emph{Advances in Statistical Climatology, Meteorology and
   Oceanography}, 5(1), 57-66.
-  <https://ascmo.copernicus.org/articles/5/57/2019/>
+  <[https://ascmo.copernicus.org/articles/5/57/2019/](https://ascmo.copernicus.org/articles/5/57/2019/)>
 
 }
-
-\keyword{datasets}
 
 \examples{
 ## Example - viewing a fire spread experiment that contains change-points
@@ -53,3 +51,5 @@ data("flat01")
 image(1:dim(flat01)[1], 1:dim(flat01)[2],
       matrix(flat01[,,1,10], nrow=dim(flat01)[1], byrow=FALSE))
 }
+
+\keyword{datasets}
