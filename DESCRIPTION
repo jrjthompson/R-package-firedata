@@ -3,8 +3,9 @@ Title: Wax paper fire spread experiments conducted in a fume hood
 Version: 1.0.0
 Imports: stats, graphics
 Authors@R: 
-    person("John R.J.", "Thompson", "john.thompson@ubc.ca", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-6303-449X"))
+    c(person("John R.J.", "Thompson", "john.thompson@ubc.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6303-449X")),
+      person("X. Joey", "Wang", role = c("ctb")))
 Maintainer: John R.J. Thompson <john.thompson@ubc.ca>
 Description:  A collection of measurements from wax paper smouldering experiments. The data consists of segmented RGB images from 29 micro-fires. For more details on experimentation, read the vignette or see Thompson, J.R.J., Wang, X.J., and Braun, W.J. (2020) <[http://www.jenvstat.org/v09/i06](http://www.jenvstat.org/v09/i06)>
 License: CC BY 4.0
