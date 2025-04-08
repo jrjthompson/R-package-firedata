@@ -1,5 +1,5 @@
 Package: firedata
-Title: Wax paper fire spread experiments conducted in a fume hood
+Title: Wax Paper Fire Spread Experiments Conducted in a Fume Hood
 Version: 1.0.0
 Imports: stats, graphics
 Authors@R: 
